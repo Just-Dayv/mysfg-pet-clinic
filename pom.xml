@@ -47,7 +47,6 @@
             </plugin>
         </plugins>
     </build>
-
     <scm>
         <developerConnection>scm:git:https://github.com/Just-Dayv/mysfg-pet-clinic.git</developerConnection>
         <tag>mysfg-pet-clinic-0.0.1</tag>
