@@ -48,4 +48,8 @@
         </plugins>
     </build>
 
+
+  <scm>
+    <tag>mysfg-pet-clinic-0.0.1</tag>
+  </scm>
 </project>
