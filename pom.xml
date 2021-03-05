@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.sprin5.tutorials</groupId>
     <artifactId>mysfg-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>mysfg-pet-clinic</name>
     <description>My SFG Pet Clinic Impl</description>
     <properties>
@@ -59,6 +59,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/Just-Dayv/mysfg-pet-clinic.git</developerConnection>
+    <tag>mysfg-pet-clinic-0.0.1</tag>
   </scm>
 
 </project>
