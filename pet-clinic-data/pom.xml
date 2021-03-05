@@ -3,7 +3,7 @@
     <parent>
         <artifactId>mysfg-pet-clinic</artifactId>
         <groupId>com.sprin5.tutorials</groupId>
-        <version>0.0.1</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -43,7 +43,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-
             </plugin>
         </plugins>
     </build>
