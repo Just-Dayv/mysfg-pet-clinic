@@ -2,11 +2,12 @@ package com.sprin5.tutorials.mysfgpetclinic.services.map;
 
 import com.sprin5.tutorials.mysfgpetclinic.model.Owner;
 import com.sprin5.tutorials.mysfgpetclinic.services.CrudService;
+import com.sprin5.tutorials.mysfgpetclinic.services.OwnerService;
 import com.sun.xml.bind.v2.model.core.ID;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService{
     @Override
     public Set<Owner> findAll() {
         return super.findAll();
@@ -31,5 +32,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
     @Override
     public Owner findById(Long id) {
         return super.findById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
