@@ -5,7 +5,9 @@ import com.sprin5.tutorials.mysfgpetclinic.model.Vet;
 import com.sprin5.tutorials.mysfgpetclinic.services.OwnerService;
 import com.sprin5.tutorials.mysfgpetclinic.services.VetService;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
